@@ -47,7 +47,7 @@ report/     → Thesis excerpts and supporting documentation
 
 Simulation of Lambertian emission patterns for different mode numbers \(m\).
 
-![Lambertian Radiation Pattern](images/lambertian/lambertian_plot.png)
+![Lambertian Radiation Pattern](images/Lambertian/Lambertian_plot.png)
 
 ---
 
@@ -55,7 +55,7 @@ Simulation of Lambertian emission patterns for different mode numbers \(m\).
 
 Heatmap visualization of received optical intensity distributions from multiple LED transmitters.
 
-![Optical Heatmap](images/heatmaps/heatmap_led1.png)
+![Optical Heatmap](images/heatmaps/heatmaps.png)
 
 ---
 
@@ -63,7 +63,7 @@ Heatmap visualization of received optical intensity distributions from multiple 
 
 Comparison between theoretical VLC propagation models and experimental measurements using least-squares fitting methods.
 
-![Experimental Comparison](images/experimental_analysis/comparison_graph.png)
+![Experimental Comparison](images/experimental_analysis/theoretical_VS_experimental.png)
 
 ---
 
