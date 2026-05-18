@@ -1,6 +1,7 @@
 # Arduino VLC Implementations
 
 Arduino-based transmitter and receiver implementations used for experimental Visible Light Communication (VLC) measurements.
+These sketches were used to generate optical signals and acquire receiver-side analog measurements for VLC experimental validation. The acquired measurements are later analyzed in `src/Arduino_Brightness_Analysis.ipynb`.
 
 ## Files
 
