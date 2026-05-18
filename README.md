@@ -29,6 +29,7 @@ The project focuses on:
 
 ---
 
+
 ## Repository Structure
 
 ```text
@@ -37,3 +38,29 @@ images/     → Generated plots and visualizations
 data/       → Experimental datasets and measurements
 arduino/    → Arduino transmitter and receiver implementations
 report/     → Thesis excerpts and supporting documentation
+
+---
+
+## Lambertian Radiation Modeling
+Simulation of Lambertian emission patterns for different mode numbers m.
+
+---
+
+## Optical Intensity Heatmaps
+Heatmap visualization of received optical intensity distributions from multiple LED transmitters.
+
+---
+
+## Experimental vs Theoretical Analysis
+Comparison between theoretical VLC propagation models and experimental measurements using least-squares fitting methods.
+
+---
+
+## Arduino-Based Measurements
+Experimental acquisition of brightness values using Arduino-based optical transmission and reception setups.
+
+---
+
+## Author
+Christos Kapsalis
+Physics graduate with a focus on Electronics, Telecommunications, and Computational Modeling of optical wireless communication systems.
