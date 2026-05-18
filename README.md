@@ -18,6 +18,18 @@ The project focuses on:
 
 ---
 
+## Key Results
+
+- Experimentally validated Lambertian-based VLC propagation behavior in indoor environments.
+- Observed strong dependence of received optical intensity on transmitter–receiver distance and incidence angle.
+- Generated optical intensity heatmaps for LOS VLC configurations using computational modeling techniques.
+- Compared theoretical propagation models with Arduino-based experimental measurements using least-squares fitting methods.
+- Demonstrated practical feasibility of VLC-based indoor positioning systems (IPS) with positioning accuracy ranging from centimeters to decimeters under controlled conditions.
+- Identified major sources of positioning error, including reflections, angular misalignment, ambient light interference, and receiver geometry effects.
+- Evaluated the advantages of Optical Wireless Communications (OWC), including electromagnetic interference immunity, infrastructure reuse, and enhanced spatial security.
+
+---
+
 ## Technologies
 
 - Python
@@ -39,6 +51,24 @@ data/       → Experimental datasets and measurements
 arduino/    → Arduino transmitter and receiver implementations
 report/     → Thesis excerpts and supporting documentation
 
+```
+
+---
+
+## How to Run
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the simulation notebooks inside the `src/` directory using Jupyter Notebook or JupyterLab.
+
+Example:
+
+```bash
+jupyter notebook
 ```
 
 ---
@@ -72,6 +102,7 @@ Comparison between theoretical VLC propagation models and experimental measureme
 Experimental acquisition of brightness values using Arduino-based optical transmission and reception setups.
 
 ![Arduino Measurements](images/arduino_measurements/brightness_time_series_x30.png)
+
 
 ---
 
