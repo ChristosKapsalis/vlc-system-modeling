@@ -1,5 +1,7 @@
 # VLC System Modeling
 
+![VLC Heatmap](images/heatmaps/heatmaps.png)
+
 Simulation and modeling of Visible Light Communication (VLC) systems using Lambertian radiation patterns and Line-of-Sight (LOS) propagation models.
 
 ---
@@ -73,6 +75,18 @@ jupyter notebook
 
 ---
 
+## Applications
+
+Potential applications of VLC and Optical Wireless Communication (OWC) systems include:
+
+- Indoor positioning systems (IPS)
+- Smart buildings and IoT infrastructures
+- Hospitals and electromagnetic-sensitive environments
+- Secure short-range wireless communications
+- Li-Fi and next-generation optical wireless networks
+
+---
+
 ## Lambertian Radiation Modeling
 
 Simulation of Lambertian emission patterns for different mode numbers \(m\).
@@ -103,6 +117,17 @@ Experimental acquisition of brightness values using Arduino-based optical transm
 
 ![Arduino Measurements](images/arduino_measurements/brightness_time_series_x30.png)
 
+---
+
+## Future Work
+
+- Investigation of LED transmitter geometry and source distribution effects on VLC-based positioning accuracy.
+- Multi-channel VLC systems using RGB LEDs for simultaneous communication and multi-receiver localization.
+- Integration of machine learning and optimization algorithms for real-time positioning error reduction under noisy environments.
+- Development of hybrid Indoor Positioning Systems (IPS) combining VLC with Wi-Fi or ultrasonic technologies.
+- Advanced simulation software for propagation analysis and transmitter–receiver geometry optimization.
+- Evaluation of VLC-IPS performance in realistic environments such as hospitals, classrooms, industrial spaces, and smart buildings.
+- Extension of VLC systems toward IoT, robotics, and energy-efficient indoor localization applications.
 
 ---
 
