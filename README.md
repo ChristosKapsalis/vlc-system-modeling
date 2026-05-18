@@ -1,23 +1,39 @@
 # VLC System Modeling
+
 Simulation and modeling of Visible Light Communication (VLC) systems using Lambertian radiation patterns and Line-of-Sight (LOS) propagation models.
 
-## Overview
-This project focuses on the computational modeling of indoor optical wireless communication systems using LED-based transmission models.
+---
 
-## Features
+## Overview
+
+This repository contains computational and experimental implementations related to indoor optical wireless communication systems using LED-based transmission models.
+
+The project focuses on:
 - Lambertian radiation modeling
-- LOS channel simulation
-- Optical power estimation
-- Python-based numerical simulations
-- Visualization of light intensity distribution
+- Optical power distribution analysis
+- Experimental validation of VLC systems
+- Least-squares fitting techniques
+- Heatmap visualization of optical intensity
+- Arduino-based transmitter and receiver implementations
+
+---
 
 ## Technologies
+
 - Python
 - NumPy
+- Pandas
 - Matplotlib
+- SciPy
+- Arduino
 
-## Example Results
-(na thimithw na prosthesw plots/images)
+---
 
-## Author
-Christos Kapsalis
+## Repository Structure
+
+```text
+src/        → Python notebooks and simulation scripts
+images/     → Generated plots and visualizations
+data/       → Experimental datasets and measurements
+arduino/    → Arduino transmitter and receiver implementations
+report/     → Thesis excerpts and supporting documentation
